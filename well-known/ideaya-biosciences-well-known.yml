@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the ideayabio.com host
+host: https://ideayabio.com
+# No /.well-known/ discovery documents are published. All standard paths return 404.
+# Recorded for auditability; no WellKnown pointer wired into apis.yml because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
